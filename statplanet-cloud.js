@@ -1,3 +1,10 @@
+/*!
+  * StatPlanet v 2.0 (https://statsilk.com/)
+  * Copyright 2008-2019 StatSilk | Frank van Cappelle
+  * Licensed under the GNU General Public License v3.0
+  */
+
+
 function isArray(obj) { return Object.prototype.toString.call(obj) === '[object Array]'; }
 Array.prototype.max = function() { return Math.max.apply(null, this); };
 Array.prototype.min = function() { return Math.min.apply(null, this); };
