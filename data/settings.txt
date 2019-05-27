@@ -1,0 +1,441 @@
+﻿MAP																																																										
+All regions						1																																																				
+Central Asia	5179.86	7128.412	-8295.05	-7601.34	0xff982f	2	KAZ	KGZ	TJK	TKM	UZB																																															
+East Asia & Pacific	1130.425	9715.393	-8195.55	-4930.55	0xff2f2f	3	AUS	BRN	CHN	FJI	FSM	HKG	IDN	JPN	KHM	KIR	KOR	LAO	MAC	MHL	MMR	MNG	MYS	NZL	PHL	PLW	PNG	PRK	SGP	SLB	THA	TLS	TON	TUV	VNM	VUT	WSM																					
+Europe	2850.469	7838.762	-9297.64	-7521.74	0xff982f	4	ALB	AND	ARM	AUT	AZE	BEL	BGR	BIH	BLR	CHE	CYP	CZE	DEU	DNK	ESP	EST	FIN	FRA	GBR	GEO	GIB	GRC	GRL	HRV	HUN	IMN	IRL	ISL	ITA	LIE	LTU	LUX	LVA	MCO	MDA	MKD	MNE	NLD	NOR	POL	PRT	ROU	RUS	SMR	SRB	SVK	SVN	SWE	TUR	UKR	KOS	MLT
+Latin America & Caribbean	-999	7667.04	-7613.84	-4627	0xe5ff2f	5	ABW	ANT	ARG	ATG	BHS	BLZ	BOL	BRA	BRB	CHL	COL	CRI	CUB	CYM	DMA	DOM	ECU	GRD	GTM	GUY	HND	HTI	JAM	KNA	LCA	MEX	NIC	PAN	PER	PRY	SLV	SUR	TCA	TTO	URY	VCT	VEN	VIR														
+Middle East & North Africa	4988.612	8044.228	-7666.22	-6578.38	0x68ff5e	6	ARE	BHR	DJI	DZA	EGY	IRN	IRQ	ISR	JOR	KWT	LBN	LBY	MAR	OMN	PSE	QAT	SAU	SYR	TUN	YEM																																
+North America	-994.373	5116.859	-9381.09	-7333.09	0xe5ff2f	7	BMU	CAN	USA																																																	
+South Asia	5148.261	8203.877	-7708.56	-6684.56	0x2fbfe5	8	AFG	BGD	BTN	IND	LKA	MDV	NPL	PAK																																												
+Sub-Saharan Africa	1873.284	6861.577	-7199	-5423.1	0x3f4fff	9	AGO	BDI	BEN	BFA	BWA	CAF	CIV	CMR	COD	COG	COM	CPV	ERI	ETH	GAB	GHA	GIN	GMB	GNB	GNQ	KEN	LBR	LSO	MDG	MLI	MOZ	MRT	MUS	MWI	NAM	NER	NGA	RWA	SDN	SEN	SLE	SOM	STP	SWZ	SYC	TCD	TGO	TZA	UGA	ZAF	ZMB	ZWE	DJI	SSD			
+																																																										
+SETTINGS																																																										
+LANGUAGE	1																																																									
+SAVECAT	FALSE																																																									
+MAP-ID	iso-a3																																																									
+LAYOUT	GRAPH=2,27,9,15,FALSE&IND=0,0,3,9,TRUE&SEL=0,9,3,14,TRUE&STORY=0,42,3,8,FALSE&MAP=3,0,9,23,TRUE&TABLE=11,27,1,3,FALSE&TIME=0,23,12,4,TRUE																																																									
+TOPMENU	TRUE																																																									
+SEARCH	TRUE																																																									
+HELP	FALSE																																																									
+POPUP-M	TRUE																																																									
+V-NODATA	FALSE																																																									
+DEVMODE	TRUE																																																									
+RESIZABLE	TRUE																																																									
+V-IND-B	TRUE																																																									
+V-I-IND	FALSE																																																									
+V-I-MAP	FALSE																																																									
+V-I-GRAPH	FALSE																																																									
+V-I-SELECT	FALSE																																																									
+V-I-STORY	FALSE																																																									
+V-I-TABLE	FALSE																																																									
+V-I-FULLSCR	TRUE																																																									
+V-I-PRINT	FALSE																																																									
+V-I-RESET	TRUE																																																									
+V-I-EXT	FALSE																																																									
+SITE-L2	-																																																									
+MAPTITLE	TRUE																																																									
+MAP-TXT-OVER	FALSE																																																									
+MAP-WHEEL	FALSE																																																									
+MAP-EXPS	2.5																																																									
+MAP-FONT	11																																																									
+MAP-TXT	3																																																									
+MAP-TXT-L	2																																																									
+ZOOM-INCR	1.15																																																									
+MAP-CLR0	0x08519C																																																									
+MAP-CLR1	0x3182BD																																																									
+MAP-CLR2	0x6BAED6																																																									
+MAP-CLR3	0xBDD7E7																																																									
+MAP-CLR4	0xEFF3FF																																																									
+MAP-CLR5	no color																																																									
+MAP-CLR6	no color																																																									
+MAP-CLR7	no color																																																									
+MAP-CLR8	no color																																																									
+GRAPH	1																																																									
+GRTITLE	TRUE																																																									
+GRAPH-FONT	11																																																									
+GR-CONNECT	FALSE																																																									
+LINE-W	2																																																									
+DOT-S	3																																																									
+DOT-S2	5																																																									
+TIMERANGE	TRUE																																																									
+V-I-MAX	TRUE																																																									
+V-I-COL	TRUE																																																									
+V-I-BAR	TRUE																																																									
+V-I-LINE	TRUE																																																									
+V-I-SCAT	TRUE																																																									
+V-I-CLN	TRUE																																																									
+V-I-CMK	TRUE																																																									
+V-I-ILINE	TRUE																																																									
+V-I-STA	TRUE																																																									
+V-I-SORT	TRUE																																																									
+FORMAT	2																																																									
+EXP-PDF	FALSE																																																									
+T_SEP	,																																																									
+DEC_POINT	.																																																									
+FONT-S	12																																																									
+FONT-P-S	12																																																									
+DECPLACES	1																																																									
+DECPLACES2	2																																																									
+MAP-TITLE	auto																																																									
+MAP-TITLE-S	1																																																									
+REGION	1																																																									
+M-DOT	FALSE																																																									
+M-DOT-SIZE	6																																																									
+M-DOT-COORD	-																																																									
+M-DOT-LL	FALSE																																																									
+TXT-COORD	AFG[x3366.1y1641.5]ALB[x3080.6y1600.75]DZA[x2975.15y1675.75]AND[x2980.8y1592.25]AGO[x3066.1y1931.5]AIA[x2574y1734.95]ATG[x2731.5y1722]ARG[x2529.4y2090.8]ARM[x3238.65y1601.4]ABW[x2547.65y1761.25]AUS[x3790.7y2005.4]AUT[x3046.9y1550.5]AZE[x3267.8y1602]BHS[x2502.05y1623.25]BHR[x3297.15y1685.7]BGD[x3546.3y1723.4]BRB[x2709.15y1761.9]BLR[x3138.6y1513.7]BEL[x2979.4y1536.75]BLZ[x2390.4y1696.75]BEN[x2982.65y1828.05]BMU[x3094.6y-174.70000000000005]BTN[x3537.9y1673.4]BOL[x2539.5y1958.5]BIH[x2978.6y1619.65]BWA[x3103.6y1996.4]BRA[x2617.05y1908.05]VGB[x2562.9y1732.65]BRN[x3664.4y1805.65]BGR[x3150.35y1579.5]BFA[x2958.1y1773.9]BDI[x3273.9y1891.55]KHM[x3577y1822.2]CMR[x3029.1y1822]CAN[x2269.4y1482.5]CPV[x2776.5y1735.7]CYM[x2321.55y1662.5]CAF[x3081.65y1804.4]TCD[x3074.6y1751.2]ChannelIslands[x1865y1324]CHL[x2449.05y2056]CHN[x3583.5y1632]COL[x2479.3y1844.5]COM[x3250.1y1926.8]COG[x3065.5y1854.3]COK[x3096.15y-141.4000000000001]CRI[x2292.5y1877.4]HRV[x3047y1578.9]CUB[x2441.65y1673.75]CYP[x3153.9y1634.25]CZE[x3053.65y1534.5]CIV[x2915.5y1835]COD[x3073y1883.7]DNK[x3043.6y1497]DJI[x3208.5y1779.5]DMA[x2626.55y1751.9]DOM[x2593.55y1676.75]ECU[x2414.65y1878.7]EGY[x3132.8y1685.9]SLV[x2298.5y1801.3]GNQ[x2958.5y1924.05]ERI[x3222.1y1754.8]EST[x3129.4y1478.75]ETH[x3211.75y1810.45]MKD[x3108.4y1595]FaeroeIslands[x1865y1324]FalklandIslands[x1865y1324]FJI[x4082.6y1982.7]FIN[x3126.65y1452.5]FRA[x2974.4y1559.75]GUF[x2637.9y1825.3]FrenchPolynesia[x1865y1324]GAB[x3028.1y1863.4]GMB[x2789.3y1780.7]GEO[x3232.9y1581.5]DEU[x3021.6y1521.5]GHA[x2942.5y1858.4]GIB[x3110.6y-175.4000000000001]GRC[x3100.6y1618.7]GRL[x2698.6y1387.2]GRD[x2696.65y1800.8]Guadeloupe[x1865y1324]Guam[x1865y1324]GTM[x2258.65y1766]GGY[x2957.15y1538]GIN[x2900.5y1787.8]GNB[x2793y1809.8]GUY[x2557.9y1849.55]HTI[x2493.65y1743.9]VAT[x3232.35y-141.5999999999999]HND[x2424.55y1740.3]HKG[x3714.45y1695.75]HongKong[x1865y1324]HUN[x3100y1556.7]ISL[x2846.15y1450.9]IND[x3455.6y1717.25]IDN[x3593y1920.2]IRN[x3292.9y1645.25]IRQ[x3236.9y1641.4]IRL[x2900.4y1519.9]IMN[x2915.3y1537]ISR[x3165.6y1650.7]ITA[x3033.3y1595.2]JAM[x2453.55y1780]JPN[x3852.1y1624.2]JEY[x2958.65y1540]JOR[x3197.15y1657.4]KAZ[x3402.65y1549.8]KEN[x3208.4y1851.4]KIR[x4149.45y1850.05]KOS[x3064y1636.7]KWT[x3281y1669.9]KGZ[x3439.85y1591.45]LAO[x3609.4y1686.5]LVA[x3124y1495.5]LBN[x3165.15y1632.75]LSO[x3168.15y2057.3]LBR[x2868y1840.55]LBY[x3059.65y1674.9]LIE[x3130.4y-141.9000000000001]LTU[x3086.9y1501]LUX[x3009.3y1542.7]MAC[x3671.8y1733.2]MDG[x3257.65y1977.5]MWI[x3184.1y1933.8]MYS[x3701.6y1847.95]MDV[x3385.35y1818.45]MLI[x2944.6y1736.3]MLT[x3037.15y1629.75]MHL[x3161.9y-142.20000000000005]Martinique[x1865y1324]MRT[x2879.5y1731]MUS[x3334.6y1977.4]Mayotte[x1865y1324]MEX[x2317.15y1707.4]FSM[x3111.5y-141.9000000000001]MCO[x3144.6y-173.4000000000001]MNG[x3595.9y1560.4]MNE[x3062.6y1618.15]MSR[x2579.8y1744.55]MAR[x2910.1y1650]MOZ[x3187y1985.05]MMR[x3525.2y1737.4]NAM[x3061.65y1980.3]NRU[x4005.3y1824.55]NPL[x3491.8y1670.25]NLD[x2982.5y1513]ANT[x2761.65y1864.8]NZL[x4006.4y2101.05]NewCaledonia[x1865y1324]NIC[x2294.3y1838.5]NER[x3012.6y1743.8]NGA[x3016.6y1791.7]NIU[x3163y-171.75]NorthernMarianaIslands[x1865y1324]NOR[x3012y1468]OMN[x3312.8y1735.8]PAK[x3391.9y1666.2]PLW[x3178.3y-139.20000000000005]PSE[x3199.65y1678]PAN[x2401.9y1835.4]PNG[x3877.6y1866.8]PRY[x2590.05y1999.8]PRK[x3758.9y1596.5]PER[x2460.8y1926.2]PHL[x3762.7y1763.8]Pitcairn[x1865y1324]POL[x3083.15y1517.2]PRT[x2897.4y1597.5]PRI[x0y0]QAT[x3276.6y1706.75]KOR[x3740.5y1641]MDA[x3148.4y1549]Reunion[x1865y1324]ROU[x3130.6y1565.2]RUS[x3204.8y1490.75]RWA[x3263.4y1868.4]SaintHelena[x1865y1324]KNA[x2743.8y1665.2]LCA[x2796.9y1742.3]SaintPierreandMiquelon[x1865y1324]VCT[x2771.6y1789]WSM[x4154.85y1943.25]SMR[x3197.3y-174.20000000000005]STP[x2937.9y1894.3]SAU[x3222.5y1707.2]SEN[x2836.15y1755.55]SRB[x3104y1573.5]SYC[x3324.65y1875.05]SLE[x2827.1y1824.3]SGP[x3514.65y1872.7]SVK[x3089.35y1542.2]SVN[x3069.9y1566.15]SLB[x3964.75y1912.7]SOM[x3269.9y1820.4]ZAF[x3088.6y2053.05]SSD[x3141.75y1816.9]ESP[x2939.5y1592.5]LKA[x3476.6y1802.2]SDN[x3140.9y1760.8]SUR[x2617.5y1850.2]SJM[x3090.75y1355.75]SWZ[x3184.9y2023.55]SWE[x3054y1462]CHE[x3009.4y1564.4]SYR[x3203.1y1624.5]TWN[x3735.9y1701.75]TJK[x3407.25y1614.65]TZA[x3169.3y1896.4]THA[x3532.3y1787]TLS[x3768.8y1906.9]TGO[x2984.1y1853.55]TKL[x3231.9y-176.0999999999999]TON[x4155.5y1999.05]TTO[x2756.9y1826.5]TUN[x3024.1y1637.5]TUR[x3181.5y1606.75]TKM[x3329.15y1611]TCA[x2528.65y1656.2]TUV[x4070.35y1854.25]VIR[x2647.9y1701.2]UGA[x3171.6y1841.3]UKR[x3163.15y1533]ARE[x3329.9y1704.2]GBR[x2942.5y1489.25]USA[x2308.5y1602.7]URY[x2610.5y2062.05]UZB[x3360.9y1589.5]VUT[x4032y1948.55]VEN[x2518.4y1811]VNM[x3653.1y1766.5]WallisandFutunaIslands[x1865y1324]WestBankandGaza[x1865y1324]ESH[x2890.6y1696]YEM[x3267.15y1758.3]ZMB[x3119.5y1943.2]EAZ[x3220.65y1886]ZWE[x3145.4y1970.9]title[x412.1y189.35]																																																									
+REGION-L	ANT GRD TTO THA NIC CYM KHM BGR GTM SLV CRI HND BLZ PAN CUB TCA DOM VIR VGB AIA DMA VCT BRB LCA ABW MSR ATG CHL SEN GMB GNB SLE LBR LBR CIV GHA TGO STP BEN GNQ RWA BDI SWZ LSO DJI LBN ISR PSE KWT BHR QAT ARE BGD LAO BRN SGP IMN GGY JEY LUX SVN BIH MNE MLT BHS KOS NRU KIR MDV TUV TON KNA																																																									
+MAP-TXT-ALL	FALSE																																																									
+MAPP-TXT-ALL	FALSE																																																									
+MAP-TXT-Z	50																																																									
+MAP-TXT-S	9																																																									
+MAP-TXT-S2	1																																																									
+MAP-SYMB-S	100																																																									
+MAP-SYMB-TR	20																																																									
+MAP-BRDR	0xFFFFFF																																																									
+MAP-NTRL	0xEEEEEE																																																									
+MAP-OVER	0xFFFF00																																																									
+VIEW0	TRUE																																																									
+VIEW1	1																																																									
+VIEW2	FALSE																																																									
+VIEW3	TRUE																																																									
+VIEW4	1																																																									
+VIEW5	TRUE																																																									
+VIEW8	TRUE																																																									
+GR-LABELS	1																																																									
+GR-DV	4																																																									
+GR-TXT-S	100																																																									
+GR-TXT-S2	100																																																									
+GR-DOT-S	100																																																									
+ANI-TIME	0.8																																																									
+V-I-IND	FALSE																																																									
+V-I-INDG	TRUE																																																									
+V-IND-O	FALSE																																																									
+V-I-SYMB	TRUE																																																									
+V-I-OPTION	TRUE																																																									
+V-I-FULLSCR	TRUE																																																									
+FULLSCR	TRUE																																																									
+T_GR-OPT	Graph options																																																									
+T_XAX	x-axis																																																									
+T_YAX	y-axis																																																									
+T_LAX	left axis																																																									
+T_RAX	right axis																																																									
+T_BUB	bubble size																																																									
+T_GR-SORT	Sort bar chart																																																									
+T_GR-SORTL	Sort labels																																																									
+T_GR-SORT1	Sort lowest to highest																																																									
+T_GR-SORT2	Sort highest to lowest																																																									
+T_GR-SORT3	Sort highest to lowest - from middle																																																									
+T_GR-SORT4	Sort alphabetical																																																									
+T_GR-SCALE1	Bubble size																																																									
+T_GR-SCALE2	scale according to indicator																																																									
+T_GR-SCALE3	Same size																																																									
+T_GR-SCAT	Show scatter plot																																																									
+T_GR-LINE	Show time series graph																																																									
+T_GR-COL	Show column chart																																																									
+T_GR-BAR	Show bar chart																																																									
+T_GR-col	Show vertical bubble chart																																																									
+T_GR-SIZE1	Full screen graph																																																									
+T_GR-SIZE2	Reduce graph size																																																									
+T_TAR	Target																																																									
+T_GR-START	-																																																									
+T_GR-YAXIS	Please select a y-axis indicator																																																									
+T_GRAPH	Graph/Chart																																																									
+T_OPTIONS	Options and appearance																																																									
+T_EXT	Go to full data visualisation tool																																																									
+T_LINK	Copy and share link to current indicator																																																									
+T_LINK2	Link copied																																																									
+T_FULLSCR1	Switch to full screen mode																																																									
+T_SEL	Selection panel																																																									
+T_FULLSCR2	Close full screen																																																									
+T_CAT	Category																																																									
+T_CAT2	Select a category																																																									
+T_REG	Select a region																																																									
+T_REG1	All regions																																																									
+T_REG2	Custom region																																																									
+T_SEL-INDIC	Select an indicator																																																									
+T_BOOKM1	Bookmarked indicator																																																									
+T_BOOKM2	Bookmark selected indicator																																																									
+T_SOURCE1	Source																																																									
+T_SELECT	Create a custom region with selection																																																									
+T_SELECTA	Select all																																																									
+T_SHIFT	Hold the SHIFT key to select multiple regions																																																									
+T_REMOVE	Remove selected																																																									
+T_DESEL	Deselect all																																																									
+T_INDG	Display multiple indicators in the line graph for the selected map area  																																																									
+T_REFRESH	Refresh selection list																																																									
+T_HEADER	Map area																																																									
+T_HEADERG	Region																																																									
+T_TABLE-C1	Copy table data																																																									
+T_TABLE-C2	Go to Excel and select - Edit -> Paste. You can also paste the data in a text editor such as Notepad; save the file with the extension .html and open the file in a Web Browser.																																																									
+T_TABLE-S1	Save (export) table data																																																									
+T_EXP-M	Export map																																																									
+T_EXP-D	Export data																																																									
+T_EXP-G	Export graph																																																									
+T_COPYD	Copy data																																																									
+T_COPYML	Copy map legend																																																									
+T_COPYMC	Copy map coordinates																																																									
+T_CLOSE	Close StatPlanet																																																									
+T_CLOSE2	Close																																																									
+T_MENU	-																																																									
+T_EDIT	Edit																																																									
+T_LATEST	Latest available																																																									
+T_LOADING	Loading data																																																									
+T_LOAD2	Loading																																																									
+T_MLN	million																																																									
+T_NAME	Name																																																									
+T_OPTIONS-M	More options																																																									
+T_ND	No data																																																									
+T_OK	OK																																																									
+T_RESET	Reset																																																									
+T_RESET2	Clear selection and reset application to startup state																																																									
+T_SELR	Select all within this data range																																																									
+T_SEARCH	Search																																																									
+T_TND	thousand																																																									
+T_PLAY	Play from beginning																																																									
+T_STOP	Stop																																																									
+T_YEAR	Year																																																									
+T_H-IND	Currently selected indicator																																																									
+T_H-CAT	Browse all indicators through the dropdown menu																																																									
+T_H-REG	Select a region																																																									
+T_H-YR	Select a time-period or play animation over time																																																									
+																																																										
+NAMES																																																										
+Afghanistan																																																										
+Albania																																																										
+Algeria																																																										
+Andorra																																																										
+Angola																																																										
+Anguilla																																																										
+Antigua and Barbuda																																																										
+Argentina																																																										
+Armenia																																																										
+Aruba																																																										
+Australia																																																										
+Austria																																																										
+Azerbaijan																																																										
+Bahamas																																																										
+Bahrain																																																										
+Bangladesh																																																										
+Barbados																																																										
+Belarus																																																										
+Belgium																																																										
+Belize																																																										
+Benin																																																										
+Bermuda																																																										
+Bhutan																																																										
+Bolivia																																																										
+Bosnia and Herzegovina																																																										
+Botswana																																																										
+Brazil																																																										
+British Virgin Islands																																																										
+Brunei Darussalam																																																										
+Bulgaria																																																										
+Burkina Faso																																																										
+Burundi																																																										
+Cambodia																																																										
+Cameroon																																																										
+Canada																																																										
+Cape Verde																																																										
+Cayman Islands																																																										
+Cent African Rep																																																										
+Chad																																																										
+Chile																																																										
+China																																																										
+Colombia																																																										
+Comoros																																																										
+Congo																																																										
+Cook Islands																																																										
+Costa Rica																																																										
+Côte d’Ivoire																																																										
+Croatia																																																										
+Cuba																																																										
+Cyprus																																																										
+Czech Republic																																																										
+People's Republic of Korea																																																										
+Dem. Rep. of Congo																																																										
+Denmark																																																										
+Djibouti																																																										
+Dominica																																																										
+Dominican Republic																																																										
+Ecuador																																																										
+Egypt																																																										
+El Salvador																																																										
+Equatorial Guinea																																																										
+Eritrea																																																										
+Estonia																																																										
+Ethiopia																																																										
+Fiji																																																										
+Finland																																																										
+France																																																										
+Gabon																																																										
+Gambia																																																										
+Georgia																																																										
+Germany																																																										
+Ghana																																																										
+Gibraltar																																																										
+Greece																																																										
+Grenada																																																										
+Guatemala																																																										
+Guinea																																																										
+Guinea-Bissau																																																										
+Guyana																																																										
+Haiti																																																										
+Holy See																																																										
+Honduras																																																										
+Hong Kong																																																										
+Hungary																																																										
+Iceland																																																										
+India																																																										
+Indonesia																																																										
+Iran																																																										
+Iraq																																																										
+Ireland																																																										
+Israel																																																										
+Italy																																																										
+Jamaica																																																										
+Japan																																																										
+Jordan																																																										
+Kazakhstan																																																										
+Kenya																																																										
+Kiribati																																																										
+Kuwait																																																										
+Kyrgyzstan																																																										
+Lao PDR																																																										
+Latvia																																																										
+Lebanon																																																										
+Lesotho																																																										
+Liberia																																																										
+Libyan Arab Jamahiriya																																																										
+Liechtenstein																																																										
+Lithuania																																																										
+Luxembourg																																																										
+Macao, China																																																										
+Madagascar																																																										
+Malawi																																																										
+Malaysia																																																										
+Maldives																																																										
+Mali																																																										
+Malta																																																										
+Marshall Islands																																																										
+Mauritania																																																										
+Mauritius																																																										
+Mexico																																																										
+Micronesia (Federated States of)																																																										
+Monaco																																																										
+Mongolia																																																										
+Montenegro																																																										
+Montserrat																																																										
+Morocco																																																										
+Mozambique																																																										
+Myanmar (Burma)																																																										
+Namibia																																																										
+Nauru																																																										
+Nepal																																																										
+Netherlands																																																										
+Netherlands Antilles																																																										
+New Zealand																																																										
+Nicaragua																																																										
+Niger																																																										
+Nigeria																																																										
+Niue																																																										
+Norway																																																										
+Oman																																																										
+Pakistan																																																										
+Palau																																																										
+Palestinian Territories																																																										
+Panama																																																										
+Papua New Guinea																																																										
+Paraguay																																																										
+Peru																																																										
+Philippines																																																										
+Poland																																																										
+Portugal																																																										
+Qatar																																																										
+Rep. of Korea																																																										
+Rep. of Moldova																																																										
+Romania																																																										
+Russian Federation																																																										
+Rwanda																																																										
+Saint Kitts and Nevis																																																										
+Saint Lucia																																																										
+Saint Vincent and the Grenadines																																																										
+Samoa																																																										
+San Marino																																																										
+Sao Tome and Principe																																																										
+Saudi Arabia																																																										
+Senegal																																																										
+Serbia																																																										
+Seychelles																																																										
+Sierra Leone																																																										
+Singapore																																																										
+Slovakia																																																										
+Slovenia																																																										
+Solomon Islands																																																										
+Somalia																																																										
+South Africa																																																										
+Spain																																																										
+Sri Lanka																																																										
+Sudan																																																										
+Suriname																																																										
+Swaziland																																																										
+Sweden																																																										
+Switzerland																																																										
+Syrian Arab Republic																																																										
+Tajikistan																																																										
+Thailand																																																										
+FYR of Macedonia																																																										
+Timor-Leste																																																										
+Togo																																																										
+Tokelau																																																										
+Tonga																																																										
+Trinidad and Tobago																																																										
+Tunisia																																																										
+Turkey																																																										
+Turkmenistan																																																										
+Turks and Caicos Islands																																																										
+Tuvalu																																																										
+Uganda																																																										
+Ukraine																																																										
+United Arab Emirates																																																										
+United Kingdom																																																										
+Tanzania																																																										
+United States																																																										
+Uruguay																																																										
+Uzbekistan																																																										
+Vanuatu																																																										
+Venezuela																																																										
+Vietnam																																																										
+Yemen																																																										
+Zambia																																																										
+Zimbabwe																																																										
+French Guiana																																																										
+Western Sahara																																																										
+Taiwan																																																										
+Greenland																																																										
+Zanzibar																																																										
+Svalbard and Jan Mayen																																																										
+Puerto Rico																																																										
+Isle of Man																																																										
+Jersey																																																										
+Guernsey																																																										
+US Virgin Islands																																																										
+Kosovo																																																										
+South Sudan																																																										
+FrenchPolynesia																																																										
+Guadeloupe																																																										
+Guam																																																										
+Martinique																																																										
+Mayotte																																																										
+NewCaledonia																																																										
+Reunion																																																										
+Hong Kong																																																										
+Channel Islands																																																										
+Faeroe Islands																																																										
+Falkland Islands																																																										
+Northern Mariana Islands																																																										
+Pitcairn																																																										
+Saint Helena																																																										
+Saint Pierre and Miquelon																																																										
+Wallis and Futuna Islands																																																										
+West Bank and Gaza																																																										
