@@ -4,12 +4,16 @@ Mobile compatible interactive mapping software used by UN organizations, governm
 
 To set up the software, please see the Quick Start Guide.
 
->> OFFLINE USAGE
+>> OFFLINE (DESKTOP) USAGE
 
 Offline usage is currently only supported using the Firefox browser.
 
 To launch the application, open ‘StatPlanet_Cloud.html’ in Firefox.
 (You may need to update to the latest version: https://www.mozilla.org/en-US/firefox/new/)
+
+Then, follow these instructions to run it in Firefox:
+
+https://www.statsilk.com/support/running-offline-javascript-firefox-68-resolving-cross-origin-request-blocked
 
 To use StatPlanet Cloud in other web browsers, it first needs to be published online.
 
