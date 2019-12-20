@@ -6,14 +6,10 @@ To set up the software, please see the Quick Start Guide.
 
 >> OFFLINE (DESKTOP) USAGE
 
-Offline usage is currently only supported using the Firefox browser.
+Offline usage is currently only supported using the Firefox browser. Important: Firefox 68 instroduced a new security measure so the following step is required to run StatPlanet Cloud from your desktop: https://www.statsilk.com/support/running-offline-javascript-firefox-68-resolving-cross-origin-request-blocked (once published online it runs in any browser, so this is for offline use / testing purposes only).
 
 To launch the application, open ‘StatPlanet_Cloud.html’ in Firefox.
 (You may need to update to the latest version: https://www.mozilla.org/en-US/firefox/new/)
-
-Then, follow these instructions to run it in Firefox:
-
-https://www.statsilk.com/support/running-offline-javascript-firefox-68-resolving-cross-origin-request-blocked
 
 To use StatPlanet Cloud in other web browsers, it first needs to be published online.
 
