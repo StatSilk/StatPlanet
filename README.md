@@ -1,19 +1,62 @@
 # StatPlanet
-Mobile compatible interactive mapping software used by UN organizations, government agencies, universities and Global 500 companies - now open source. This version comes with a world map, which can be replaced with any map in GeoJSON format. The current version relies on the open source HighCharts library (free for non-commercial purposes) but could also be integrated with other mapping libraries such as Leaflet. 
 
+**Interactive maps, charts and data dashboards from your own data.**
 
-To set up the software, please see the Quick Start Guide.
+StatPlanet is StatSilk's open-source, browser-based mapping and visualization software. Explore geographic, indicator and time-series data through an interactive dashboard with linked maps, graphs and filters.
 
->> OFFLINE (DESKTOP) USAGE
+Originally introduced in 2008, StatPlanet pioneered combining interactive maps and graphs in a web dashboard. StatSilk's mapping tools have been used by international organizations, public institutions and researchers. This repository contains a **historical HTML5/JavaScript open-source edition**, not necessarily the latest StatPlanet Cloud commercial product.
 
-Offline usage is currently only supported using the Firefox browser. Important: Firefox 68 instroduced a new security measure so the following step is required to run StatPlanet Cloud from your desktop: https://www.statsilk.com/support/running-offline-javascript-firefox-68-resolving-cross-origin-request-blocked (once published online it runs in any browser, so this is for offline use / testing purposes only).
+[**Explore the project page**](https://statsilk.github.io/StatPlanet/) · [**Launch the included world-map demo**](https://statsilk.github.io/StatPlanet/StatPlanet_Cloud.html) · [**StatSilk website**](https://www.statsilk.com/software/statplanet-open-source)
 
-To launch the application, open ‘StatPlanet_Cloud.html’ in Firefox.
-(You may need to update to the latest version: https://www.mozilla.org/en-US/firefox/new/)
+## Features
 
-To use StatPlanet Cloud in other web browsers, it first needs to be published online.
+- **Interactive maps**: explore world, national or subnational geographies; use GeoJSON maps of your own.
+- **Linked charts**: compare data through maps, bars, time series and scatter/bubble visualizations.
+- **Time exploration**: navigate indicators across years and animate changes.
+- **Filters and search**: focus on geographic regions, categories and indicators.
+- **Custom dashboards**: adapt panels, data sources, settings and presentation.
+- **Data Manager**: prepare data and maps using the bundled Excel macro-enabled workbook.
 
-==========================================================================================================
+## Quick start
 
->> PUBLISHING ONLINE
-For publishing online, please see the Quick Start Guide, Step 6.
+1. Download or clone this repository.
+2. For the easiest browser experience, **host the files via a local web server or a web host**. Do not assume that opening files directly from disk will work: browsers restrict some local-file requests.
+3. Serve **`StatPlanet_Cloud.html`** and keep its `js/`, `data/` and `map/` folders together.
+4. Explore the included world-map example, then review the PDF [Quick Start Guide](Quick_Start_Guide_StatPlanet_Cloud_v1.03.pdf) to customize it.
+5. Use `StatPlanet_Data_Manager.xlsm` (requires a compatible Excel installation with macros) to prepare geographic, indicator and time data as described in the guide.
+
+A basic local server example with Python 3:
+
+```bash
+python -m http.server 8000
+```
+
+Then visit `http://localhost:8000/StatPlanet_Cloud.html`. Some historical scripts may require additional compatibility work in modern browsers.
+
+## Project files
+
+| Path | Purpose |
+| --- | --- |
+| `StatPlanet_Cloud.html` | Existing dashboard entry point |
+| `StatPlanet_Data_Manager.xlsm` | Excel-based data preparation |
+| `Quick_Start_Guide_StatPlanet_Cloud_v1.03.pdf` | Setup and customization guide |
+| `data/` | Example datasets and settings |
+| `map/` | Map resources |
+| `js/` | Dashboard and third-party JavaScript/CSS |
+| `index.html` | Project landing page for GitHub Pages |
+
+## Deploy on GitHub Pages
+
+Under **Settings → Pages**, select **Deploy from a branch**, then `master` and `/(root)`. The landing page will appear at `https://statsilk.github.io/StatPlanet/`, and the legacy dashboard at `/StatPlanet_Cloud.html`. GitHub Pages activation and compatibility must be checked separately; adding these files does not itself enable Pages.
+
+## Licensing and third-party components
+
+This repository includes a [GNU GPL v3 license](LICENSE) for the StatPlanet open-source project. It also bundles third-party libraries, notably historical Highcharts files, **which may have separate licensing restrictions**. Do not assume that the GPL license grants a commercial license to all bundled third-party files. Review the Highcharts license terms and other dependency licenses before commercial redistribution or deployment.
+
+## Maintenance status
+
+This is a historical edition of the software. Some bundled dependencies and browser assumptions may be outdated. Review security, accessibility, licensing and browser compatibility before using in a production environment. The new landing page does not upgrade or modify the original visualization engine.
+
+## About
+
+Developed by [StatSilk](https://www.statsilk.com/), which creates tools to turn spreadsheets and databases into accessible maps and visualizations. Learn more about [StatPlanet Open Source](https://www.statsilk.com/software/statplanet-open-source) and [features](https://www.statsilk.com/features).
