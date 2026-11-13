@@ -47,7 +47,7 @@ Then visit `http://localhost:8000/StatPlanet_Cloud.html`. Some historical script
 
 ## Deploy on GitHub Pages
 
-Under **Settings → Pages**, select **Deploy from a branch**, then `master` and `/(root)`. The landing page will appear at `https://statsilk.github.io/StatPlanet/`, and the legacy dashboard at `/StatPlanet_Cloud.html`. GitHub Pages activation and compatibility must be checked separately; adding these files does not itself enable Pages.
+Under **Settings → Pages**, select **Deploy from a branch**, then `master` and `/(root)`. The landing page will appear at `https://statsilk.github.io/StatPlanet/`, and the legacy dashboard at `/StatPlanet_Cloud.html`. See [GitHub Pages setup and browser compatibility review](PAGES.md). GitHub Pages activation and live browser compatibility must be checked separately; committing files does not itself enable Pages.
 
 ## Licensing and third-party components
 
@@ -55,7 +55,7 @@ This repository includes a [GNU GPL v3 license](LICENSE) for the StatPlanet open
 
 ## Maintenance status
 
-This is a historical edition of the software. Some bundled dependencies and browser assumptions may be outdated. Review security, accessibility, licensing and browser compatibility before using in a production environment. The new landing page does not upgrade or modify the original visualization engine.
+This is a historical edition of the software. Some bundled dependencies and browser assumptions may be outdated. A static review found a reference to a missing `js/highcharts-export-csv.js` file; see [PAGES.md](PAGES.md) for details and a browser test checklist. Review security, accessibility, licensing and browser compatibility before using in a production environment. The new landing page does not upgrade or modify the original visualization engine.
 
 ## About
 
