@@ -9,13 +9,13 @@
 
 Expected page URLs (after deployment succeeds):
 - Landing page: https://statsilk.github.io/StatPlanet/
-- Historical dashboard: https://statsilk.github.io/StatPlanet/StatPlanet_Cloud.html
+- Interactive dashboard: https://statsilk.github.io/StatPlanet/StatPlanet_Cloud.html
 
-The root `index.html` is an independent landing page; it does not require the legacy JavaScript visualization engine. The `.nojekyll` marker preserves direct static-file serving.
+The root `index.html` is an independent landing page; it does not require the bundled JavaScript visualization engine. The `.nojekyll` marker preserves direct static-file serving.
 
 ## Browser review
 
-The historical dashboard uses legacy jQuery, Highcharts and other bundled scripts. A static inspection of `StatPlanet_Cloud.html` identified these **possible compatibility issues**:
+The dashboard uses bundled jQuery, Highcharts and other scripts. A static inspection of `StatPlanet_Cloud.html` identified these **possible compatibility issues**:
 
 - Its loading manifest references `js/highcharts-export-csv.js`, which is **not present** in the tracked repository. This may trigger a resource-loading failure.
 - The HTML calls `Pace.on` and `Pace.track`. A `pace.js` file exists under `js/unused/`, but its loading path could not be confirmed in the HTML. Verify whether a bundled script supplies this global.
@@ -35,4 +35,4 @@ These are **inspection findings, not confirmed runtime failures**. The dashboard
 - [ ] Check desktop and mobile display and keyboard navigation.
 - [ ] Audit third-party licenses and outdated dependencies before production use.
 
-If the demo cannot launch, prioritize an isolated compatibility fix in a separate pull request, preserving historical behavior and checking for third-party licensing implications.
+If the demo cannot launch, prioritize an isolated compatibility fix in a separate pull request, preserving existing behavior and checking for third-party licensing implications.
