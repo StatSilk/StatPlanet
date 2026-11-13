@@ -4,7 +4,7 @@
 
 StatPlanet is StatSilk's open-source, browser-based mapping and visualization software. Explore geographic, indicator and time-series data through an interactive dashboard with linked maps, graphs and filters.
 
-Originally introduced in 2008, StatPlanet pioneered combining interactive maps and graphs in a web dashboard. StatSilk's mapping tools have been used by international organizations, public institutions and researchers. This repository contains a **historical HTML5/JavaScript open-source edition**, not necessarily the latest StatPlanet Cloud commercial product.
+Originally introduced in 2008, StatPlanet pioneered combining interactive maps and graphs in a web dashboard. StatSilk's mapping tools have been used by international organizations, public institutions and researchers. This repository contains the **HTML5/JavaScript open-source edition**, distinct from the StatPlanet Cloud commercial product.
 
 [**Explore the project page**](https://statsilk.github.io/StatPlanet/) · [**Launch the included world-map demo**](https://statsilk.github.io/StatPlanet/StatPlanet_Cloud.html) · [**StatSilk website**](https://www.statsilk.com/software/statplanet-open-source)
 
@@ -31,7 +31,7 @@ A basic local server example with Python 3:
 python -m http.server 8000
 ```
 
-Then visit `http://localhost:8000/StatPlanet_Cloud.html`. Some historical scripts may require additional compatibility work in modern browsers.
+Then visit `http://localhost:8000/StatPlanet_Cloud.html`. Some bundled scripts may require additional compatibility work in modern browsers.
 
 ## Project files
 
@@ -47,15 +47,15 @@ Then visit `http://localhost:8000/StatPlanet_Cloud.html`. Some historical script
 
 ## Deploy on GitHub Pages
 
-Under **Settings → Pages**, select **Deploy from a branch**, then `master` and `/(root)`. The landing page will appear at `https://statsilk.github.io/StatPlanet/`, and the legacy dashboard at `/StatPlanet_Cloud.html`. See [GitHub Pages setup and browser compatibility review](PAGES.md). GitHub Pages activation and live browser compatibility must be checked separately; committing files does not itself enable Pages.
+Under **Settings → Pages**, select **Deploy from a branch**, then `master` and `/(root)`. The landing page will appear at `https://statsilk.github.io/StatPlanet/`, and the interactive dashboard at `/StatPlanet_Cloud.html`. See [GitHub Pages setup and browser compatibility review](PAGES.md). GitHub Pages activation and live browser compatibility must be checked separately; committing files does not itself enable Pages.
 
 ## Licensing and third-party components
 
-This repository includes a [GNU GPL v3 license](LICENSE) for the StatPlanet open-source project. It also bundles third-party libraries, notably historical Highcharts files, **which may have separate licensing restrictions**. Do not assume that the GPL license grants a commercial license to all bundled third-party files. Review the Highcharts license terms and other dependency licenses before commercial redistribution or deployment.
+This repository includes a [GNU GPL v3 license](LICENSE) for the StatPlanet open-source project. It also bundles third-party libraries, including Highcharts files, **which may have separate licensing restrictions**. Do not assume that the GPL license grants a commercial license to all bundled third-party files. Review the Highcharts license terms and other dependency licenses before commercial redistribution or deployment.
 
 ## Maintenance status
 
-This is a historical edition of the software. Some bundled dependencies and browser assumptions may be outdated. A static review found a reference to a missing `js/highcharts-export-csv.js` file; see [PAGES.md](PAGES.md) for details and a browser test checklist. Review security, accessibility, licensing and browser compatibility before using in a production environment. The new landing page does not upgrade or modify the original visualization engine.
+Some bundled dependencies and browser assumptions may be outdated. A static review found a reference to a missing `js/highcharts-export-csv.js` file; see [PAGES.md](PAGES.md) for details and a browser test checklist. Review security, accessibility, licensing and browser compatibility before using in a production environment. The new landing page does not upgrade or modify the original visualization engine.
 
 ## About
 
